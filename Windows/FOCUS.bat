@@ -1,23 +1,23 @@
-@echo off
-:: Kill all browsers silently
-taskkill /f /im chrome.exe >nul 2>&1
-taskkill /f /im firefox.exe >nul 2>&1
-taskkill /f /im msedge.exe >nul 2>&1
-taskkill /f /im opera.exe >nul 2>&1
-taskkill /f /im brave.exe >nul 2>&1
-taskkill /f /im vivaldi.exe >nul 2>&1
-taskkill /f /im iexplore.exe >nul 2>&1
-
-:: Flush DNS cache
-ipconfig /flushdns >nul 2>&1
-
-:: Clear clipboard
-echo off | clip
-
 ╔══════════════════════════════════════════════════════════╗
 ║     REMOVE THE '::' FROM ANY LINE YOU WANT TO USE       ║
 ║     YOU CAN ENABLE MULTIPLE LINES - THEY ALL RUN        ║
 ╚══════════════════════════════════════════════════════════╝
+
+@echo off
+:: Kill all browsers silently
+:: taskkill /f /im chrome.exe >nul 2>&1
+:: taskkill /f /im firefox.exe >nul 2>&1
+:: taskkill /f /im msedge.exe >nul 2>&1
+:: taskkill /f /im opera.exe >nul 2>&1
+:: taskkill /f /im brave.exe >nul 2>&1
+:: taskkill /f /im vivaldi.exe >nul 2>&1
+:: taskkill /f /im iexplore.exe >nul 2>&1
+
+:: Flush DNS cache
+:: ipconfig /flushdns >nul 2>&1
+
+:: Clear clipboard
+:: echo off | clip
 
 :: ============ MICROSOFT OFFICE APPS ============
 :: Open Excel (blank)

@@ -1,5 +1,5 @@
 # 🎯 F.O.C.U.S.
-### Force Off Compulsive Unproductive Sessions
+### FOCUS: Overwriting Obvious Unproductive Shit
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Windows](https://img.shields.io/badge/Windows-.bat-blue)](https://github.com/Pwimawy/F.O.C.U.S./blob/main/windows/focus.bat)
